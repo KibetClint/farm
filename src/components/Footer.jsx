@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1">
             <div className="flex items-center">
               <i className="fas fa-leaf text-green-400 text-2xl mr-2"></i>
-              <span className="font-bold text-xl">Green Acres Farm</span>
+              <span className="font-bold text-xl">Kibet Farms</span>
             </div>
             <p className="mt-4 text-gray-300 text-sm">
               Sustainable farming practices producing quality crops and poultry
@@ -32,8 +32,8 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
+          <div className=" justify-items-start">
+            <h3 className="text-sm  font-semibold text-gray-200 tracking-wider uppercase">
               Quick Links
             </h3>
             <ul className="mt-4 space-y-2">
@@ -144,8 +144,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-base text-gray-400">
-            &copy; {new Date().getFullYear()} Green Acres Farm. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Kibet Farms. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-gray-300">

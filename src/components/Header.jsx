@@ -19,7 +19,7 @@ const Header = () => {
     { to: "/about", label: "About" },
     { to: "/farm", label: "Our Farm" },
     { to: "/book-visit", label: "Book a Visit" },
-    { to: "/store", label: "Store" },
+    { to: "/products", label: "Products" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -29,9 +29,11 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-emerald-600 to-green-600 rounded-xl flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
+            <img
+              src="/images/logo.png" // e.g. /assets/logo.png or from a URL
+              alt="Kibet Farm Logo"
+              className="w-15 h-15 rounded-full shadow-lg object-cover"
+            />
             <span className="text-3xl font-bold bg-gradient-to-r from-emerald-800 to-green-700 bg-clip-text text-transparent">
               Kibet Farm
             </span>

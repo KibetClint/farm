@@ -3,14 +3,14 @@ import React, { useState, useEffect } from "react";
 const slides = [
   {
     id: 1,
-    image: "/public/images/beans.jpeg",
+    image: "/images/beans.jpeg",
     subtitle: "For a Better Tomorrow",
     buttonText: "Explore Our Farm",
     buttonLink: "#explore",
   },
   {
     id: 2,
-    image: "/public/images/planting.jpeg",
+    image: "/images/planting.jpeg",
     title: "Organic Harvest",
     subtitle: "Fresh from Our Fields",
     buttonText: "Browse Crops",
@@ -18,7 +18,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/public/images/harrow.jpeg",
+    image: "/images/harrow.jpeg",
     title: "Healthy Livestock",
     subtitle: "Ethically Raised Animals",
     buttonText: "Meet Our Animals",
@@ -26,7 +26,7 @@ const slides = [
   },
   {
     id: 4,
-    image: "/public/images/wheat.jpeg",
+    image: "/images/wheat.jpeg",
     title: "Healthy Livestock",
     subtitle: "Ethically Raised Animals",
     buttonText: "Meet Our Animals",
@@ -253,7 +253,7 @@ const Home = () => {
             <div className="mt-10 lg:mt-0">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="/public/images/ghibi.jpeg"
+                  src="/images/ghibi.jpeg"
                   alt="Farm Family"
                   className="w-full h-full object-cover"
                 />

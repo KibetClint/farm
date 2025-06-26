@@ -53,7 +53,7 @@ const Header = () => {
 
           {/* Shop CTA */}
           <Link
-            to="/store"
+            to="/products"
             className="hidden sm:inline-block bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-medium px-4 py-2 rounded-lg shadow-lg transition-colors">
             Shop Now
           </Link>
@@ -75,7 +75,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-white shadow-md transition-max-height duration-300 overflow-hidden ${
+        className={`md:hidden fixed right-0 top-0 bg-green-600  shadow-md transition-max-height duration-300 overflow-hidden w-44 ${
           navOpen ? "max-h-screen" : "max-h-0"
         }`}>
         <nav className="flex flex-col space-y-4 px-4 py-6">
